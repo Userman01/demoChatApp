@@ -25,7 +25,7 @@ class MessagesManager: ObservableObject{
                 do{
                     return try document.data(as: Message.self)
                 } catch{
-                    print("Error decoding document into Mesage: \(error)")
+                    print("Error decoding document into Mesage : \(error)")
                     return nil
                 }
             }

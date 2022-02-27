@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TitleRow:View{
     var imageUrl = URL(string: "https://images.unsplash.com/photo-1645389692136-4b344532362f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80")
-    var name = "Pushka Nastya"
+    var name = "Popova Nastya"
     var body: some View{
         HStack(spacing:20){
             AsyncImage(url: imageUrl){image in
